@@ -18,8 +18,21 @@ return percentage * bill;
 
 const bills = [140,45,270];
 
-const tips= [tipCalculator(bill[0]),
+const tips= [tipPaid(bill[0]),
 ]
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* if (tip < 50) {
