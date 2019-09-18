@@ -24,9 +24,9 @@ console.log(bill[1]);
 console.log(bill[2]);
 console.log(tips);
 
-console.log([bill[0] + tips[0], bill[1] + tips[1], bill[2] + tips[2]])
-
 let final= [bill[0] + tips[0], bill[1] + tips[1], bill[2] + tips[2],];
+console.log([final])
+
 
 // or you can do let final= [161, 54, 297];
 
