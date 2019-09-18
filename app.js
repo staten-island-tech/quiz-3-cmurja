@@ -62,27 +62,27 @@ const robInfo = {
     fullName: 'Rob Grande',
     mass: 78,
     height: 1.69,
-
-getBMI: function () {
-        BMI = (this.mass /((this.height) * (this.height)))
-        return  BMI;
-}
+    getBMI: function (){
+        BMI = (this.mass / ((this.height) * (this.height)))
+        return BMI;
+    }
 };
-
 const dejonInfo = {
     fullName: 'Dejon Kurti',
     mass: 110,
     height: 1.95,
-    
-    getBMI: function () {
-        BMI = (this.mass /((this.height) * (this.height)))
-        return  BMI;
+    getBMI: function (){
+        BMI = (this.mass / ((this.height) * (this.height)))
+        return BMI;
     }
 };
-console.log(dejonInfo)
+console.log(dejonInfo.getBMI());
+console.log(robInfo.getBMI());
 
-
-
-
-console.log(robInfo.fullName);
-
+if (dejonInfo.getBMI() > robInfo.getBMI()){
+    console.log(dejonInfo.fullName + ' has a higher BMI of ' + dejonInfo.getBMI())
+} else if (dejonInfo.BMI > robInfo.BMI) {
+    console.log(robInfo.fullName + ' has a higher BMI of ' + dejonInfo.getBMI())
+} else {
+    console.log('They have the same BMI');
+}
