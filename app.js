@@ -4,7 +4,7 @@ let fullBill = ()
  */
 
 
-function tipPaid(bill){
+/* function tipPaid(bill){
     let percentage; 
     if (bill < 50 ){
         percentage =.2;
@@ -33,7 +33,7 @@ let final= [bill[0] + tips[0], bill[1] + tips[1], bill[2] + tips[2],];
 const copy = final.filter(final => final > 100);
 
 console.log(copy);
-
+ */
 
 
 
@@ -57,3 +57,32 @@ console.log(copy);
 }
 }
 console.log(tipPaid(0); , tipPaid(1), tipPaid(2)); */
+
+const robInfo = {
+    fullName: 'Rob Grande',
+    mass: 78,
+    height: 1.69,
+
+getBMI: function () {
+        BMI = (this.mass /((this.height) * (this.height)))
+        return  BMI;
+}
+};
+
+const dejonInfo = {
+    fullName: 'Dejon Kurti',
+    mass: 110,
+    height: 1.95,
+    
+    getBMI: function () {
+        BMI = (this.mass /((this.height) * (this.height)))
+        return  BMI;
+    }
+};
+console.log(dejonInfo)
+
+
+
+
+console.log(robInfo.fullName);
+
